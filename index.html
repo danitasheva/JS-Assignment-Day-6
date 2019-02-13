@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />    
+    <title>Random colour generator</title>
+  </head>
+  
+  <body>
+
+    <h1 class="wrapper">Random Colour Generator</h1>
+
+  
+    <form class="wrapper" action="#" name="myForm">
+        <label for="numberOfColors" >Number of colors in the palette</label>
+        
+        <input type="number" name="numberOfColors" id="numberOfColors" required min="1" max="100">
+        <br>
+        <label for="hue">Hue</label>
+        <input type="" name="hue">
+        <br>
+        <label for="luminosity">Luminosity</label>
+        <input type="" name="luminosity">
+        <br>
+        <button type="submit" id="submitBtn" name="submitBtn" value="submit">Generate random colours</button>
+        
+    </form>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>    
+    <script src="jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
